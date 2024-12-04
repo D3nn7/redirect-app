@@ -6,7 +6,7 @@ const redirectUrl = process.env.REDIRECT_URL;
 app.get('*', (req, res) => {
   if (!redirectUrl) {
     return res.status(400).json({
-      error: req.baseUrl + ' is currently not available.',
+      error: req.hostname + ' is currently not available.',
       status: 400,
       timestamp: new Date().toISOString(),
       path: req.path
