@@ -1,0 +1,14 @@
+{
+    "name": "redirect-app",
+    "version": "1.0.0",
+    "main": "app.js",
+    "author": {
+        "name": "Danny Schapeit"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "scripts": {
+      "start": "node app.js"
+    }
+  }
